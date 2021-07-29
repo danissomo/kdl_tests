@@ -115,7 +115,7 @@ for i in range(10):
 
     print(f"delta_coriolis_vector")
     for i in range(n):
-        print( "{:.9f}".format(coriolis_vector[i]), ",", end = ' ')
+        print( "{:.9f}".format(dif_coriolis[i]), ",", end = ' ')
     print(f"\n")
 
     print(f"delta_grav_trq")
@@ -126,7 +126,7 @@ for i in range(10):
     print(f"delta_mass_matrix")
     for i in range(n):
         for j in range(n):
-            print( "{:.9f}".format(mass_matrix[i,j]), ",", end = ' ')
+            print( "{:.9f}".format(dif_mass[i,j]), ",", end = ' ')
         print()
     print()
 
