@@ -108,7 +108,7 @@ for i in range(10):
         print( q[i], ",",  end=' ')
     print(f"\n")
 
-    print(f"qdd")
+    print(f"qd")
     for i in range(n):
         print( qd_prev[i], ",", end =' ')
     print(f"\n")
